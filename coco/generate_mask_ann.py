@@ -49,7 +49,7 @@ train_folder_name = 'train2017'
 val_folder_name = 'val2017'
 test_folder_name = 'test2017'
 anno_folder_name = 'annotations'
-output_folder = './output'
+output_folder = './coco_stuff164k'
 
 # Create the train, val, and test folders
 os.makedirs(os.path.join(output_folder, 'images',train_folder_name), exist_ok=True)
